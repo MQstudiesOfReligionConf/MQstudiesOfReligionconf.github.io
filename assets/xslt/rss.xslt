@@ -248,33 +248,12 @@
             
               
             
-              
-            
-              
-            
-              
-            
 
               <ul class="no-bullet shadow-black">
               
                 
                   <li >
                     <a href="http://www.studiesofreligionconf.com"  title=""></a>
-                  </li>
-              
-                
-                  <li >
-                    <a href="http://www.studiesofreligionconf.com/contact/"  title="Contact">Contact</a>
-                  </li>
-              
-                
-                  <li >
-                    <a href="http://www.studiesofreligionconf.com/feed.xml"  title="Subscribe to RSS Feed">RSS</a>
-                  </li>
-              
-                
-                  <li >
-                    <a href="http://www.studiesofreligionconf.com/atom.xml"  title="Subscribe to Atom Feed">Atom</a>
                   </li>
               
                 
