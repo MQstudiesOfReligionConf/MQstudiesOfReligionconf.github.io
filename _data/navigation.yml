@@ -1,14 +1,19 @@
+- title: Macquarie University
+  image: MQ_INT_HOR_RGB_POS.png
+  url: "http://www.mq.edu.au/about/about-the-university/faculties-and-departments/faculty-of-arts/departments-and-centres/department-of-ancient-history"
+  side: left
+
 - title: Start
   url: "/"
   side: left
-#
-#- title: Getting Started
-#  url: "/getting-started/"
-#  side: left
-#
-#- title: "Templates"
-#  url: "/design/"
-#  side: left
+
+- title: Register for the conference now!
+  url: "https://www.eventbrite.com/e/studies-of-religion-conference-tickets-27019456923"
+  side: left
+
+- title: "Conference Program"
+  url: "/program"
+  side: left
 #  dropdown:
 #  - title: "Grid & Colors"
 #    url: "/design/grid/"
