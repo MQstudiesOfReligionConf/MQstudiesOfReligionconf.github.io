@@ -131,7 +131,7 @@
             
             
               <li class="divider"></li>
-              <li><a href="http://www.studiesofreligionconf.com/search/">Search</a></li>
+              <li><a href="http://www.studiesofreligionconf.com/search/">  Search </a></li>
 
             
             
@@ -150,7 +150,7 @@
 
             
             
-              <li><a href="http://www.mq.edu.au/about/about-the-university/faculties-and-departments/faculty-of-arts/departments-and-centres/department-of-ancient-history" target="_blank">Macquarie University</a></li>
+               <li><a href="http://www.mq.edu.au/about/about-the-university/faculties-and-departments/faculty-of-arts/departments-and-centres/department-of-ancient-history" target="_blank">  <img class="navimage" src="images/MQ_INT_HOR_RGB_POS.png" alt=Macquarie University/> </a></li>
               <li class="divider"></li>
 
             
@@ -165,7 +165,7 @@
 
             
             
-              <li><a href="http://www.studiesofreligionconf.com/">Start</a></li>
+               <li><a href="http://www.studiesofreligionconf.com/">  Start </a></li>
               <li class="divider"></li>
 
             
@@ -180,7 +180,7 @@
 
             
             
-              <li><a href="https://www.eventbrite.com/e/studies-of-religion-conference-tickets-27019456923" target="_blank">Register</a></li>
+               <li><a href="https://www.eventbrite.com/e/studies-of-religion-conference-tickets-27019456923" target="_blank">  Register for the conference now! </a></li>
               <li class="divider"></li>
 
             
@@ -195,7 +195,7 @@
 
             
             
-              <li><a href="http://www.studiesofreligionconf.com/program">Conference Program</a></li>
+               <li><a href="http://www.studiesofreligionconf.com/program">  Conference Program </a></li>
               <li class="divider"></li>
 
             
