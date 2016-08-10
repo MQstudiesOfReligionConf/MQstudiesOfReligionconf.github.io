@@ -110,6 +110,18 @@
 
           
           
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
             
             
               <li class="divider"></li>
@@ -133,6 +145,36 @@
             
             
               <li><a href="http://www.studiesofreligionconf.com/">Start</a></li>
+              <li class="divider"></li>
+
+            
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+              <li><a href="https://www.eventbrite.com/e/studies-of-religion-conference-tickets-27019456923" target="_blank">Register</a></li>
+              <li class="divider"></li>
+
+            
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+              <li><a href="http://www.studiesofreligionconf.com/program">Conference Program</a></li>
               <li class="divider"></li>
 
             
