@@ -128,6 +128,12 @@
 
           
           
+        
+
+              
+
+          
+          
             
             
               <li class="divider"></li>
@@ -196,6 +202,21 @@
             
             
                <li><a href="http://www.studiesofreligionconf.com/program">  Conference Program </a></li>
+              <li class="divider"></li>
+
+            
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+               <li><a href="https://www.eventbrite.com/e/ancient-history-teachers-panel-discussion-tickets-27022127912" target="_blank">  Register for Ancient History Teachers&#39; Panel Discussion </a></li>
               <li class="divider"></li>
 
             
