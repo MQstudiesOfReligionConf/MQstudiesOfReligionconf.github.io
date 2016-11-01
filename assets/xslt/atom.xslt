@@ -201,10 +201,46 @@
 
             
             
-               <li><a href="http://www.studiesofreligionconf.com/program">  Conference Program </a></li>
-              <li class="divider"></li>
 
-            
+              <li class="has-dropdown">
+                <a href="http://www.studiesofreligionconf.com/program">Conference Program</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a href="http://www.studiesofreligionconf.com/keynote">Keynote</a></li>
+                    
+
+                      
+
+                      <li><a href="http://www.studiesofreligionconf.com/teachingJudaism">Teaching Judaism</a></li>
+                    
+
+                      
+
+                      <li><a href="http://www.studiesofreligionconf.com/teachingChristianity">Teaching Christianity</a></li>
+                    
+
+                      
+
+                      <li><a href="http://www.studiesofreligionconf.com/teachingIslam">Teaching Islam</a></li>
+                    
+
+                      
+
+                      <li><a href="http://www.studiesofreligionconf.com/panel">Panel Discussion</a></li>
+                    
+
+                      
+
+                      <li><a href="http://www.studiesofreligionconf.com/minecraft">Minecraft and the Ancient World</a></li>
+                    
+                  </ul>
+
+              </li>
+              <li class="divider"></li>
             
           
         
