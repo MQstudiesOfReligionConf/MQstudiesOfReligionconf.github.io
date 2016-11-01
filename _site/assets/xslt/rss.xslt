@@ -1,9 +1,14 @@
-<!doctype html>
-<html class="no-js" lang="en">
-<head>
-	<meta charset="utf-8">
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" >
+<xsl:output method="html" encoding="utf-8" />
+<xsl:template match="/rss">
+	<xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html &gt;</xsl:text>
+	<html>
+	<head>
+		<xsl:text disable-output-escaping="yes"><![CDATA[
+		<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Studies of Religion Conference</title>
+	<title>RSS Feed (Styled)</title>
 	<link rel="stylesheet" type="text/css" href="http://www.studiesofreligionconf.com/assets/css/styles_feeling_responsive.css">
 	<script src="http://www.studiesofreligionconf.com/assets/js/modernizr.min.js"></script>
 
@@ -31,9 +36,9 @@
 
 
 	<!-- Facebook Open Graph -->
-	<meta property="og:title" content="Studies of Religion Conference">
+	<meta property="og:title" content="RSS Feed (Styled)">
 	<meta property="og:description" content="Resources, News, and Updates about the Macquarie University Studies of Religion Conference.">
-	<meta property="og:url" content="http://www.studiesofreligionconf.com/teachingJudaism">
+	<meta property="og:url" content="http://www.studiesofreligionconf.com/assets/xslt/rss.xslt">
 	<meta property="og:locale" content="en_EN">
 	<meta property="og:type" content="website">
 	<meta property="og:site_name" content="Studies of Religion Conference">
@@ -77,10 +82,11 @@
 
 	
 
-</head>
-<body id="top-of-page" class="post">
-	
-	<div id="navigation" class="sticky">
+		]]></xsl:text>
+	</head>
+	<body id="top-of-page">
+		<xsl:text disable-output-escaping="yes"><![CDATA[
+		<div id="navigation" class="sticky">
   <nav class="top-bar" role="navigation" data-topbar>
     <ul class="title-area">
       <li class="name">
@@ -229,11 +235,9 @@
   </nav>
 </div><!-- /#navigation -->
 
-	
+		
 
-	
-
-<div id="masthead">
+<div id="masthead-no-image-header">
 	<div class="row">
 		<div class="small-12 columns">
 			<a id="logo" href="http://www.studiesofreligionconf.com" title="Studies of Religion Conference – News and Updates about the Macquarie University Studies of Religion Conference">
@@ -250,64 +254,57 @@
 
 
 
+		
 
 
-	<div class="row t30">
-	<div class="medium-8 columns medium-offset-2 end">
-		<article itemscope itemtype="http://schema.org/Article">
-			<header>
-				
-
-				<div itemprop="name">
-					
-					<h1></h1>
-				</div>
-			</header>
+<div class="alert-box warning text-center"><p>This <a href="https://en.wikipedia.org/wiki/RSS" target="_blank">RSS feed</a> is meant to be used by <a href="https://en.wikipedia.org/wiki/Template:Aggregators" target="_blank">RSS reader applications and websites</a>.</p>
+</div>
 
 
-			
 
-			<div itemprop="articleSection">
-			<h1 id="teaching-judaism">Teaching Judaism</h1>
-
-<h2 id="golden-mice-and-pharaohs-vice-monotheism-in-the-hebrew-bible">Golden mice and Pharaoh’s vice: Monotheism in the Hebrew Bible.</h2>
-<p><a href="/drPryke"><strong>By: Dr Louise M. Pryke</strong></a></p>
-
-<p>The Hebrew Bible is a sacred text which reveals the principle beliefs of Judaism. This paper considers the important principle of monotheism in Judaism. Using examples from Hebrew narrative, we explore how this belief is elucidated, especially in regard to contrasts and comparisons between the worship of the God of Israel, and other deities from surrounding ancient cultures. In the Hebrew Bible, the nature and omnicompetence of God is expressed through narrative in complicated and diverse ways – from descriptions of wizarding battles, to innovations in god-napping, and through the emphasis on covenant.”</p>
-
-<h2 id="syllabus-content">Syllabus content</h2>
-
-<ul>
-  <li>Abraham and the covenant, promises of people and a land;</li>
-  <li>Principle Beliefs: belief in a single God who is the creator and ruler of the universe; the idea of Covenant;</li>
-  <li>Sacred Texts and Writings:</li>
-  <li>the Hebrew Bible, identify the importance of the Hebrew Bible.</li>
+		]]></xsl:text>
+		<header class="t30 row">
+	<p class="subheadline"><xsl:value-of select="channel/description" disable-output-escaping="yes" /></p>
+	<h1>
+		<xsl:element name="a">
+			<xsl:attribute name="href">
+				<xsl:value-of select="channel/link" />
+			</xsl:attribute>
+			<xsl:value-of select="channel/title" disable-output-escaping="yes" />
+		</xsl:element>
+	</h1>
+</header>
+<ul class="accordion row" data-accordion="">
+	<xsl:for-each select="channel/item">
+		<li class="accordion-navigation">
+			<xsl:variable name="slug-id">
+				<xsl:call-template name="slugify">
+					<xsl:with-param name="text" select="guid" />
+				</xsl:call-template>
+			</xsl:variable>
+			<xsl:element name="a">
+				<xsl:attribute name="href"><xsl:value-of select="concat('#', $slug-id)"/></xsl:attribute>
+				<xsl:value-of select="title"/>
+				<br/>
+				<small><xsl:value-of select="pubDate"/></small>
+			</xsl:element>
+			<xsl:element name="div">
+				<xsl:attribute name="id"><xsl:value-of select="$slug-id"/></xsl:attribute>
+				<xsl:attribute name="class">content</xsl:attribute>
+				<h1>
+					<xsl:element name="a">
+						<xsl:attribute name="href"><xsl:value-of select="link"/></xsl:attribute>
+						<xsl:value-of select="title"/>
+					</xsl:element>
+				</h1>
+				<xsl:value-of select="description" disable-output-escaping="yes" />
+			</xsl:element>
+		</li>
+	</xsl:for-each>
 </ul>
 
-<p><a name="drPryke"></a></p>
-
-<h1 id="dr-louise-m-pryke">Dr Louise M. Pryke</h1>
-
-<p>Dr. Louise M. Pryke is the Lecturer for the Languages and Literature of Ancient Israel, at Macquarie University. Louise’s research is focused on the myths, history and literature of the Ancient Near East, and her first book, Scorpion, was published this year. In 2016, Louise was the recipient of the International Association for Assyriology (IAA) Fund - an international award for promising early career scholars in the field of Assyriology.</p>
-
-			</div>
-
-			
-
-			
-		</article>
-	</div><!-- /.medium-8.columns -->
-
-
-	
-
-
-	
-</div><!-- /.row -->
-
-
-	
-	    <div id="up-to-top" class="row">
+		<xsl:text disable-output-escaping="yes"><![CDATA[
+		    <div id="up-to-top" class="row">
       <div class="small-12 columns" style="text-align: right;">
         <a class="iconfont" href="#top-of-page">&#xf108;</a>
       </div><!-- /.small-12.columns -->
@@ -426,19 +423,13 @@
       </div><!-- /#subfooter -->
     </footer>
 
-	
-
-	
+		
 
 
 <script src="http://www.studiesofreligionconf.com/assets/js/javascript.min.js"></script>
 
 
 
-<script>
-    $("#masthead").backstretch("http://www.studiesofreligionconf.com/images/programHeader.jpg", {fade: 700});
-    $("#masthead-with-text").backstretch("http://www.studiesofreligionconf.com/images/programHeader.jpg", {fade: 700});
-</script>
 
 
 
@@ -450,7 +441,18 @@
 
 
 
-
-</body>
-</html>
-
+		]]></xsl:text>
+	</body>
+	</html>
+</xsl:template>
+<xsl:template name="slugify">
+	<xsl:param name="text" select="''" />
+	<xsl:variable name="dodgyChars" select="' ,.#_-!?*:;=+|&amp;/\\'" />
+	<xsl:variable name="replacementChar" select="'-----------------'" />
+	<xsl:variable name="lowercase" select="'abcdefghijklmnopqrstuvwxyz'" />
+	<xsl:variable name="uppercase" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZ'" />
+	<xsl:variable name="lowercased"><xsl:value-of select="translate( $text, $uppercase, $lowercase )" /></xsl:variable>
+	<xsl:variable name="escaped"><xsl:value-of select="translate( $lowercased, $dodgyChars, $replacementChar )" /></xsl:variable>
+	<xsl:value-of select="$escaped" />
+</xsl:template>
+</xsl:stylesheet>
