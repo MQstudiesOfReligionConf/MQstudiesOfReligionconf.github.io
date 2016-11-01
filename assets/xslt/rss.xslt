@@ -210,6 +210,11 @@
 
                       
 
+                      <li><a href="http://www.studiesofreligionconf.com/program">Program</a></li>
+                    
+
+                      
+
                       <li><a href="http://www.studiesofreligionconf.com/keynote">Keynote</a></li>
                     
 
