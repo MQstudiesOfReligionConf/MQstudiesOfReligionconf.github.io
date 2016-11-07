@@ -242,6 +242,11 @@
 
                       <li><a href="http://www.studiesofreligionconf.com/minecraft">Minecraft and the Ancient World</a></li>
                     
+
+                      
+
+                      <li><a href="http://www.studiesofreligionconf.com/outreach">Outreach</a></li>
+                    
                   </ul>
 
               </li>
