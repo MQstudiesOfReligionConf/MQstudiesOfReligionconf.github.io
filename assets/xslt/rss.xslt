@@ -128,12 +128,6 @@
 
           
           
-        
-
-              
-
-          
-          
             
             
               <li class="divider"></li>
@@ -186,7 +180,7 @@
 
             
             
-               <li><a href="https://www.eventbrite.com/e/studies-of-religion-conference-tickets-27019456923" target="_blank">  Register for the conference now! </a></li>
+               <li><a href="https://www.eventbrite.com/e/macquarie-at-the-museums-tickets-31856607972" target="_blank">  Register for the conference now! </a></li>
               <li class="divider"></li>
 
             
@@ -251,21 +245,6 @@
 
               </li>
               <li class="divider"></li>
-            
-          
-        
-
-              
-
-          
-          
-
-            
-            
-               <li><a href="https://www.eventbrite.com/e/ancient-history-teachers-panel-discussion-tickets-27022127912" target="_blank">  Register for the Ancient History Teachers&#39; Panel Discussion </a></li>
-              <li class="divider"></li>
-
-            
             
           
         
