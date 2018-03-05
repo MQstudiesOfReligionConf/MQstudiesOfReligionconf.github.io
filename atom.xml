@@ -2,9 +2,9 @@
 <?xml-stylesheet type="text/xsl" href="/assets/xslt/atom.xslt" ?>
 <?xml-stylesheet type="text/css" href="/assets/css/atom.css" ?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<id>http://www.studiesofreligionconf.com/</id>
+	<id>https://2016.mqatthemuseums.com/</id>
 	<title>Studies of Religion Conference</title>
-	<updated>2017-02-07T17:23:18+11:00</updated>
+	<updated>2018-03-05T15:51:28+11:00</updated>
 
 	<subtitle>Resources, News, and Updates about the Macquarie University Studies of Religion Conference.</subtitle>
 
@@ -21,8 +21,8 @@
 		</author>
 	
 
-	<link href="http://www.studiesofreligionconf.com/atom.xml" rel="self" type="application/rss+xml" />
-	<link href="http://www.studiesofreligionconf.com/" rel="alternate" type="text/html" />
+	<link href="https://2016.mqatthemuseums.com/atom.xml" rel="self" type="application/rss+xml" />
+	<link href="https://2016.mqatthemuseums.com/" rel="alternate" type="text/html" />
 
 	<generator uri="http://jekyllrb.com" version="3.0.2">Jekyll</generator>
 

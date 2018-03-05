@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://www.studiesofreligionconf.com/sitemap.xml
+Sitemap: https://2016.mqatthemuseums.com/sitemap.xml
